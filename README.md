@@ -79,7 +79,7 @@
   5. Dans la section **environemment variable**, cliquez sur 
   **Add from .env** et copiez le contenu suivant :
 
-     ```env
+     ```
      PREFIXE=.
      LECTURE_AUTO_STATUS=oui
      TELECHARGER_AUTO_STATUS=oui
@@ -110,48 +110,6 @@
   1. **Forkez le dépôt**.
   2. Modifiez le fichier `exemple_de_set.env` en `set.env` et ajoutez-y votre **session_ID**.
   3. Créez un nouveau fichier `.github/workflows/deploy.yml` et mettez-y ce contenu :
-
-```yml
-name: Node.js CI
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: '0 */4 * * *'
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Install dependencies
-      run: |
-        npm install -g pm2
-        npm install
-
-    - name: Start application with timeout
-      run: |
-        timeout 14520s npm run OKARUN
-
-```
 
 
 
