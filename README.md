@@ -23,7 +23,7 @@
 -------
 
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=00008B&center=true&vCenter=true&multiline=false&lines=`ARIMA+FORGER+DU+CLAN+ÉTERNEL`" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=00008B&center=true&vCenter=true&multiline=false&lines=`ÉTERNEL+ARIMA`" alt="">
 
 <br>
 
@@ -42,7 +42,7 @@
 ### <br>    ❖ SESSION_ID ❖
 
 
-`✠ IF YOU DON'T HAVE YOUR SESSION_ID SO U CAN GET IT CLICK ON SESSION_ID BUTTON AND PASTE YOUR NUMBER With COUNTRY CODE EXAMPLE:+225xxxxxxxxx4 THEN YOU CAN GET YOUR SESSION_ID ✠`
+`✠EXAMPLE:+225xxxxxxxxx4 THEN YOU CAN GET YOUR SESSION_ID ✠`
 
 ----------
 . `USE SESSION `.
